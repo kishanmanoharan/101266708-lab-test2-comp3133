@@ -1,0 +1,11 @@
+<div class="details-container">
+  <div class="mission-info" *ngIf="mission">
+    <button mat-flat-button class="back-button" routerLink="" color="primary">
+      < Back
+    </button>
+    <img src="{{ mission.mission_patch_small }}" width="200px" />
+    <h1 class="details-title">{{ mission.mission_name }}</h1>
+    <h3>{{ mission.launch_year }}</h3>
+    <p>{{ mission.details }}</p>
+  </div>
+</div>

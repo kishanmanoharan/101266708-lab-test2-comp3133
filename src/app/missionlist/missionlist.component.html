@@ -1,0 +1,18 @@
+<div class="list-container">
+  <h1 class="list-title">SpaceX Mission List</h1>
+  <h3 class="list-title">Kishan Manoharan - 101266708</h3>
+  <div *ngFor="let mission of missions">
+    <div routerLink="details/{{ mission.flight_number }}">
+      <mat-card class="mission-card">
+        <mat-card-header>
+          <img mat-card-avatar src="{{ mission.mission_patch_small }}" />
+          <mat-card-title>{{ mission.mission_name }}</mat-card-title>
+          <mat-card-subtitle>{{ mission.launch_year }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>{{ mission.details }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

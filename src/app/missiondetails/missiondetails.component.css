@@ -1,0 +1,36 @@
+html {
+  color: white;
+  background-color: #121212 !important;
+}
+
+body {
+  color: white;
+  background-color: #121212 !important;
+}
+.details-container {
+  padding: 2vh 10vw;
+  background-color: #121212;
+  height: 96vh !important;
+  overflow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.back-button {
+  display: block;
+}
+
+.list-title {
+  color: white;
+  text-align: center;
+}
+
+.mission-info {
+  padding: 16px;
+  border-radius: 20px;
+  margin: 18px;
+  background-color: #242424;
+  color: white;
+}
